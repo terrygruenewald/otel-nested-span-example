@@ -3,6 +3,7 @@
 This demonstrates how to do nested spans.  I was having difficulty with this so I created a simple example.  This example works.  To run it:
 ```
 $ mvn package
+$ cd target
 $ java -jar otel-nested-span-example-1.0-SNAPSHOT.jar
 ```
 Before running you will need to have this Docker container running:
